@@ -3,7 +3,7 @@ const http = require("http");
 const { Server } = require("socket.io");
 const cors = require("cors");
 const mongoose = require("mongoose");
-require(dotenv).confing();
+require('dotenv').config();
 
 const userRoutes = require("./routes/user");
 const betRoutes = require("./routes/bet");
